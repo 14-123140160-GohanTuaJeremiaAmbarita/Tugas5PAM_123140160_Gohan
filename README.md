@@ -6,7 +6,7 @@ Proyek ini adalah aplikasi manajemen catatan (Notes) yang dibangun menggunakan *
 
 ## 🛠️ Fitur Aplikasi & Bukti Implementasi
 
-### 1. Bottom Navigation (25%)
+### 1. Bottom Navigation 
 - **Lokasi Kode:** `app/src/main/java/com/example/tugas5/navigation/BottomNavBar.kt`
 - **Deskripsi:** Terdapat 3 tab (Notes, Favorites, Profile). Tab yang aktif di-highlight menggunakan `currentBackStackEntryAsState`. Navigasi menggunakan `popUpTo` dan `launchSingleTop` untuk optimasi stack.
 
@@ -15,7 +15,7 @@ Proyek ini adalah aplikasi manajemen catatan (Notes) yang dibangun menggunakan *
 
 ---
 
-### 2. Passing Argument: Note List → Note Detail (25%)
+### 2. Passing Argument: Note List → Note Detail 
 - **Lokasi Kode:** `app/src/main/java/com/example/tugas5/navigation/AppNavigation.kt`
 - **Deskripsi:** Menggunakan `NavType.IntType` untuk mengirim `noteId`. Route didefinisikan sebagai `"note_detail/{noteId}"`.
 
@@ -24,7 +24,7 @@ Proyek ini adalah aplikasi manajemen catatan (Notes) yang dibangun menggunakan *
 
 ---
 
-### 3. Add Note via Floating Action Button (20%)
+### 3. Add Note via Floating Action Button 
 - **Lokasi Kode:** `app/src/main/java/com/example/tugas5/screens/NoteListScreen.kt`
 - **Deskripsi:** Tombol FAB di layar daftar note yang mengarahkan pengguna ke layar `AddNoteScreen`.
 
@@ -33,7 +33,7 @@ Proyek ini adalah aplikasi manajemen catatan (Notes) yang dibangun menggunakan *
 
 ---
 
-### 4. Back Navigation (20%)
+### 4. Back Navigation 
 - **Lokasi Kode:** Semua file di folder `screens/`
 - **Deskripsi:** Setiap TopAppBar pada screen detail/form memiliki tombol kembali yang memanggil `navController.popBackStack()`.
 
@@ -42,13 +42,13 @@ Proyek ini adalah aplikasi manajemen catatan (Notes) yang dibangun menggunakan *
 
 ---
 
-### 5. Edit Note Screen (10%)
+### 5. Edit Note Screen 
 - **Lokasi Kode:** `app/src/main/java/com/example/tugas5/screens/EditNoteScreen.kt`
 - **Deskripsi:** Layar edit yang menerima parameter `noteId` untuk memodifikasi catatan yang sudah ada.
 
 ---
 
-### 6. BONUS: Navigation Drawer (+10%)
+### 6. Navigation Drawer 
 - **Lokasi Kode:** `app/src/main/java/com/example/tugas5/navigation/NavigationDrawer.kt`
 - **Deskripsi:** Sidebar menu (Home, Favorites, Settings) yang dapat dibuka melalui ikon menu di TopAppBar.
 
